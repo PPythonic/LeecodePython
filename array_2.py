@@ -27,11 +27,9 @@ class Solution(object):
             for p in range(1, days):
                 if prices[p] > prices[p-1]:
                     profit += (prices[p]-prices[p-1])
-
             return profit
 
 
 lst = [7,1,5,3,6,4]
-# lst = [1,2,3,4,5]
 a = Solution()
 print a.maxProfit(lst)
