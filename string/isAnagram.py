@@ -1,4 +1,5 @@
 # coding=utf-8
+from collections import Counter
 
 
 """
@@ -6,6 +7,7 @@
 输入: s = "anagram", t = "nagaram"
 输出: true
 """
+
 
 # 方法一，可以实现，但是执行时间过长
 class Solution(object):
